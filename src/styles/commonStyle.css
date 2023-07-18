@@ -1,0 +1,38 @@
+.max-width_header {
+  display: flex;
+  max-width: 1100px;
+  margin: 0px auto;
+}
+
+.absolute-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cur-po {
+  cursor: pointer;
+}
+
+.collection-title {
+  font-size: 30px;
+  color: var(--heading-text);
+  margin-bottom: 32px;
+  font-weight: 600;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: black;
+  font-size: 30px;
+  font-weight: 900;
+  height: 1.8rem;
+  width: 1.9rem;
+  border-radius: 50%;
+  position: absolute;
+  right: 5px;
+  border: 4px solid transparent;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
+}
